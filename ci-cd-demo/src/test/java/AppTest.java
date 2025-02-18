@@ -20,4 +20,20 @@ class AppTest {
         assertEquals(1, calculator.subtract(3, 2), "The subtraction result should be 1");
         assertEquals(-4, calculator.subtract(-2, 2), "The subtraction result should be -4");
     }
+
+    @Test
+    void testMultiply(){
+        assertEquals(6, calculator.multiply(3, 2), "The multiplication result should be 1");
+        assertEquals(-4, calculator.multiply(-2, 2), "The multiplication result should be -4");
+    }
+
+    @Test
+    void testDivide() {
+        assertEquals(1.5, calculator.divide(3, 2), "The multiplication result should be 1");
+        assertEquals(-1, calculator.divide(-2, 2), "The multiplication result should be -4");
+    }
+
+   
+    
+
 }

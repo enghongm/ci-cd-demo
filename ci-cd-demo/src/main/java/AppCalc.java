@@ -13,4 +13,19 @@ public class AppCalc {
     public int subtract(int a, int b) {
         return a - b;
     }
+
+    // Method to multiply two numbers
+    public int multiply(int a, int b) {
+        return a * b;
+    }
+
+    // Method to divide two numbers
+    public double divide(int a, int b) {
+        return (double)a / b;
+    }
+
+    @Override
+    public String toString() {
+        return super.toString();
+    }
 }
